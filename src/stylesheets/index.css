@@ -1,0 +1,251 @@
+body,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: #090E35;
+	position: relative;
+	font-family: 'Space Mono', monospace;
+}
+
+.navCont{
+	position: absolute;
+	width: 1000px;
+	min-height: 50px;
+	top: 40px;
+	left: 24%;
+	text-decoration: none;
+}
+
+.nav-buttons {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+
+}
+
+.nav-buttons button {
+	display: flex;
+	width: 330px;
+	height: 50px;
+	border: none;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 0;
+	opacity: .9;
+}
+
+button a {
+	position: absolute;
+	text-decoration: none;
+	width: 330px;
+	min-height: 40px;
+	top: 0;
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+button a:hover {
+	color: white;
+	background-color: rgb(42, 92, 209);
+	border-radius: 5px 5px 0 0;
+}
+
+.nav-buttons .active{
+	color: white;
+	background-color: rgb(98, 148, 206);
+	border-radius: 5px 5px 0 0;
+}
+
+
+/* ORBIT ONE */
+svg{
+	position: fixed;
+	overflow: visible;
+	left: 30%;
+	top: 28px;
+	z-index: -1;
+}
+
+#planet-one,
+#ring-one,
+#moon,
+#planet-two,
+#planet-three,
+#planet-four,
+#planet-five {
+	animation: move 15s linear infinite;
+	box-shadow: none;
+}
+
+#planet-six,
+#planet-seven,
+#planet-eight,
+#planet-nine,
+#planet-ten,
+#ring-two,
+#planet-eleven,
+#planet-twelve,
+#planet-thirteen {
+	animation: move 8s linear infinite;
+}
+
+#planet-fourteen,
+#planet-fifteen,
+#planet-sixteen {
+	animation: move 6s linear infinite;
+}
+
+#planet-seventeen,
+#planet-eighteen {
+	animation: move 5s linear infinite;
+}
+
+#planet-one,
+#ring-one,
+#planet-two,
+#moon {
+  	offset-path: path("M8.576000000000008,135.3a98.604,98.604 0 1,0 197.208,0a98.604,98.604 0 1,0 -197.208,0");
+}
+
+#planet-one,
+#ring-one,
+#moon {
+	animation-delay: -4s;
+}
+
+#moon{
+  offset-path: path("M18.576000000000008,135.3a98.604,98.604 0 1,0 197.208,0a98.604,98.604 0 1,0 -197.208,0");
+}
+
+#planet-three {
+	animation-delay: -5s;
+}
+
+#planet-four {
+	animation-delay: -3s;
+}
+
+#planet-five,
+#planet-three,
+#planet-four {
+  offset-path: path('M204.576000000000008,135.3a98.604,98.604 0 1,0 -197.208,0a98.604,98.604 0 1,0 197.208,0');
+}
+
+
+#planet-six,
+#planet-seven,
+#planet-eight {
+  offset-path: path('M39.169506999999996,133.08368a69.059303,69.059303 0 1,0 138.118606,0a69.059303,69.059303 0 1,0 -138.118606,0');
+}
+
+#planet-six {
+	animation-delay: -3s;
+}
+
+
+#planet-seven {
+	animation-delay: -2s;
+}
+
+#planet-nine {
+	animation-delay: -2.5s;
+}
+
+#planet-ten,
+#ring-two,
+#planet-eleven,
+#planet-twelve,
+#planet-thirteen {
+	animation-delay: -1s;
+}
+
+
+#planet-nine,
+#planet-ten,
+#ring-two,
+#planet-eleven,
+#planet-twelve {
+	offset-path: path('M177.169506999999996,133.08368a69.059303,69.059303 0 1,0 -138.118606,0a69.059303,69.059303 0 1,0 138.118606,0');
+}
+
+#planet-eleven {
+	offset-path: path('M163.169506999999996,133.08368a69.059303,69.059303 0 1,0 -138.118606,0a69.059303,69.059303 0 1,0 138.118606,0');
+}
+
+#planet-twelve {
+	offset-path: path('M176.169506999999996,119.08368a69.059303,69.059303 0 1,0 -138.118606,0a69.059303,69.059303 0 1,0 138.118606,0');
+}
+
+#planet-thirteen {
+	offset-path: path('M181.169506999999996,146.08368a69.059303,69.059303 0 1,0 -138.118606,0a69.059303,69.059303 0 1,0 138.118606,0');
+}
+
+#planet-fourteen,
+#planet-fifteen {
+	offset-path: path('M65.589989,132.76907a42.638821,42.638821 0 1,0 85.277642,0a42.638821,42.638821 0 1,0 -85.277642,0');
+}
+
+#planet-sixteen {
+	offset-path: path('M150.589989,132.76907a42.638821,42.638821 0 1,0 -85.277642,0a42.638821,42.638821 0 1,0 85.277642,0');
+}
+
+#planet-fourteen {
+	animation-delay: -2s
+}
+
+#planet-sixteen {
+	animation-delay: -1.2s;
+}
+
+#planet-seventeen,
+#planet-eighteen {
+	offset-path: path('M84.513278,131.51059a24.974022,24.974022 0 1,0 49.948044,0a24.974022,24.974022 0 1,0 -49.948044,0');
+}
+
+#planet-seventeen {
+	animation-delay: -2.2s;
+}
+
+#planet-eighteen {
+	animation-delay: -1s;
+}
+
+@keyframes move {
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+svg {
+	-webkit-animation: fadein 4s linear 1 normal forwards;
+}
+
+@-webkit-keyframes fadein{
+	0% {
+	    opacity: 0;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	70%{
+	    opacity: 1;
+	}
+}

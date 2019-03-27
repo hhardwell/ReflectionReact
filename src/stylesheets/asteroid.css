@@ -1,0 +1,20 @@
+.asteroidTitle {
+	margin-left: 190px;
+}
+
+.asteroid-content{
+	background-color: rgba(45, 212, 62, .7);
+	border-radius: 10px;
+	width: 600px;
+	margin-left: 185px;
+	margin-bottom: 25px;
+	padding: 7px 0 15px 30px;
+}
+
+.asteroid-content li{
+	list-style: none;
+}
+
+.asteroid-warning{
+	background-color: rgba(223, 34, 34, .8);
+}

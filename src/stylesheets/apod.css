@@ -1,0 +1,38 @@
+.apodBodyCont{
+	height: auto;
+	padding-top: 15px;
+	position: relative;
+}
+
+.card-content h2{
+	margin-left: 32%;
+}
+
+.card-title{
+	font-size: 20px;
+	padding-left: 290px;
+}
+
+.apodImageCont{
+	padding: 30px 0 5px;
+	max-width: 100%;
+	max-height: 500px;
+	display: flex;
+	justify-content: center;
+}
+
+.apodPic {
+	max-width: 400px;
+	max-height: 500px;
+}
+
+.card-content p {
+	padding: 0 60px 30px 70px;
+	line-height: 30px;
+}
+
+.card-content p::first-letter{
+	font-size: 50px;
+	font-weight: 10;
+	color: #090E35;
+}

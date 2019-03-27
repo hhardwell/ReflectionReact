@@ -1,0 +1,67 @@
+
+.bodyCont{
+	background-color:rgba(255,255,255,0.95);
+	position: absolute;
+	border-radius: 0 0 8px 8px;
+	width: 1000px;
+	top: 90px;
+	left: 24%;
+	z-index: 1;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+
+.homeBodyCont{
+	height: 800px;
+}
+
+#title-main {
+	line-height: 30px;
+	padding: 0 100px;
+}
+
+#title-main h1{
+	padding: 50px 0  50px 65px;
+}
+
+#quoteCont {
+	position: relative;
+	border-left: 10px solid #090E35;
+}
+
+#quote {
+	margin-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#quote h4 {
+	font-size: 25px;
+}
+
+#quotetext::first-letter {
+	font-size: 40px;
+	font-weight: 10;
+	color: #090E35;
+}
+
+#quotetext::before{
+	position: absolute;
+	content: "\201C";
+	color: #090E35;
+	font-size:4em;
+	left: 30px;
+}
+
+#quotetext{
+	padding: 0px 40px;
+	margin: none;
+	color: #555555;
+}
+
+#quote-author{
+	position: absolute;
+	top: 90px;
+	padding-left: 350px;
+	color: black;
+}
